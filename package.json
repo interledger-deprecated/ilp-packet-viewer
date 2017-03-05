@@ -1,0 +1,23 @@
+{
+  "name": "ilp-packet-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "header-case": "^1.0.0",
+    "ilp-packet": "^1.0.0",
+    "parse-headers": "^2.0.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "typeface-droid-sans-mono": "0.0.22",
+    "typeface-titillium-web": "0.0.22"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

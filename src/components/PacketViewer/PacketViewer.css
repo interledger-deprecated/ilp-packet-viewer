@@ -1,0 +1,14 @@
+.layer-detail {
+  padding: 0 0 0 12px;
+}
+
+.layer-detail > h3 {
+  margin: 0;
+  padding: 12px 0;
+}
+
+.layer-inner {
+  background-color: #333;
+  padding: 12px 0 0 12px;
+  color: #fff;
+}

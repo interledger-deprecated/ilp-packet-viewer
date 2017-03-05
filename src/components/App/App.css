@@ -1,0 +1,77 @@
+.App {
+  max-width: 870px;
+  margin: 0 auto;
+}
+
+.App-logo {
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.App-header {
+  background-color: #225;
+  padding: 12px;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+  line-height: 24px;
+  font-weight: normal;
+  background: linear-gradient(left, #34393c 0%, #375d65 100%);
+}
+
+.App-intro {
+  padding: 12px 0;
+}
+
+.App-parsed {
+  display: block;
+  padding: 12px;
+  background-color: #373E3F;
+  color: #FFF;
+  font-family: 'Droid Sans Mono', monospace;
+}
+.App-parsed > pre {
+  margin: 0;
+}
+
+.App-textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 220px;
+  padding: 12px;
+  border: 0;
+  background-color: #373E3F;
+  color: #FFF;
+  font-family: 'Droid Sans Mono', monospace;
+}
+
+.App-legend {
+  float: right;
+  width: 150px;
+  margin: 0 0 0 12px;
+}
+
+.layer {
+  padding: 12px;
+  color: #fff;
+}
+
+.layer-app {
+  background-color: #5C9AAB;
+}
+
+.layer-transport {
+  background-color: #A9CCA3;
+  color: #555;
+}
+
+.layer-interledger {
+  background-color: #F9CF8A;
+  color: #555;
+}
+
+.layer-ledger {
+  background-color: #D98B8B;
+}

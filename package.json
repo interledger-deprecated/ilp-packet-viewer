@@ -13,6 +13,7 @@
     "typeface-titillium-web": "0.0.22"
   },
   "devDependencies": {
+    "gh-pages": "^0.12.0",
     "react-scripts": "0.9.3"
   },
   "scripts": {

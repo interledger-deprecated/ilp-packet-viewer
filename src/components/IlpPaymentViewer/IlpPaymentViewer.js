@@ -1,13 +1,13 @@
 import React from 'react'
-import { deserialize } from 'ilp-packet'
+import { deserializeIlpPayment } from 'ilp-packet'
 import { isPsk } from '../../lib/psk'
 import PskViewer from '../PskViewer/PskViewer'
 import './IlpPaymentViewer.css'
 
 export default ({ packet }) => {
-  const { amount, account, data } = deserialize(packet)
+  const { amount, account, data } = deserializeIlpPayment(packet)
   const dataBuffer = Buffer.from(data, 'base64')
-  console.log(dataBuffer.toString('ascii'))
+
   return (
     <div className="IlpPaymentViewer-main">
       <dl>

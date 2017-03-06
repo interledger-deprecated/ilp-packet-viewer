@@ -4,7 +4,7 @@
 
 ## Live Installation
 
-**[ILP Packet Viewer](https://interledgerjs.github.io/ilp-packet-viewer)**
+**[ILP Packet Viewer](https://interledgerjs.github.io/ilp-packet-viewer/)**
 
 ## Run development server
 
